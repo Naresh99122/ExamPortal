@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Successful</title>
+    <style>
+         
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        
+        #success-container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #2ecc71;
+            border-radius: 10px;
+            background-color: #d4edda;
+        }
+ 
+        #success-message {
+            font-size: 24px;
+            color: #155724;
+            margin-bottom: 20px;
+        }
+
+        
+        #user-id {
+            font-size: 18px;
+            color: #155724;
+            margin-bottom: 20px;
+        }
+ 
+        #login-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="success-container">
+        <label id="success-message">Signup Successful!</label><br>
+        <label id="user-id">Your unique user ID is: <span id="generated-id"></span></label><br>
+         <input type="button" value="Login">
+    </div>
+</body>
+</html>
