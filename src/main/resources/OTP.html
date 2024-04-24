@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forgot Password</title>
+</head>
+<body>
+
+<h2>Forgot Password</h2>
+
+<form action="#" method="post">
+  <input type="checkbox" id="mobileOption" name="option" value="mobile">
+  <label for="mobileOption">Mobile</label><br>
+  <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number"><br><br>
+  
+  <input type="checkbox" id="emailOption" name="option" value="email">
+  <label for="emailOption">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter email address"><br><br>
+  
+  <button type="button" onclick="sendOTP()">Send OTP</button><br><br>
+  
+  <input type="text" id="otp" name="otp" placeholder="Enter OTP"><br><br>
+  
+  <button type="button" onclick="verifyOTP()">Verify</button>
+</form>
+
+<script>
+function sendOTP() {
+  // Here you would implement the functionality to send OTP to the selected option (mobile or email)
+  alert("OTP sent!");
+}
+
+function verifyOTP() {
+  // Here you would implement the functionality to verify the entered OTP
+  alert("OTP verified!");
+}
+</script>
+
+</body>
+</html>
